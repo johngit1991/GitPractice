@@ -1,5 +1,8 @@
 pradeep kumar gupta
 address: Khaga
 pincode:212655
+<<<<<<< HEAD
 mob:7218777686
+=======
 company:IBM
+>>>>>>> c25dae9c63e1a1ba910f76e4322e70bcdcc4e5a4
