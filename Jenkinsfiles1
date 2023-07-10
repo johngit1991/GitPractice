@@ -1,0 +1,13 @@
+pipeline {
+      agent any
+      stages {
+         stage('Test GitHub Connection') {
+           steps {
+              echo 'Testing GitHub connection...'
+              git 'https://github.com/johngit1991/GitPractice.git'
+              sh 'git ls-remote'
+              echo 'GitHub connection test completed.'
+         }
+    }
+  }
+}
